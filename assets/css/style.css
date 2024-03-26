@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.5;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: rgb(35, 135, 13);
+	color: white;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+nav ul{
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	min-width: 500px;
+	list-style-type: none;
+}
+
+nav a {
+	color: rgb(191, 238, 202);
+	font-weight: bold;
+	text-decoration: overline underline 5px;
+}
+
+nav a:hover {
+	color: white;
+	cursor: alias;
+}
+
+.about {
+	display: flex;
+	justify-content: space-between;
+	padding: 1%;
+	margin: 10px;
+}
+
+h2{
+	font-size: 25px;
+	padding-right: 10px;
+	padding-left: 5px;
+}
+
+p {
+	display: inline-block;
+	text-align: left;
+	margin-left: 50px;
+}
+
+/* Try in the about class at the end of the designing*/
+.works {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	background-color: inherit;
+	filter: blur(3px);
+}
+
+button:hover {
+	filter: blur(0px);
+}
+
+
+@media screen and (max-width: 768px){
+	header {
+			flex-direction: column;
+	}
+}
