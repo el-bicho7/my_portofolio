@@ -3,42 +3,85 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/css/reset.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Bichos's Portofolio</title>
-	<link rel="stylesheet" href="/assets/css/reset.css">
-	<link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
 	<header>
-			<h1>Bicho's Portofolio</h1>
-			<nav>
-					<ul>
-							<li><a href="#about-me">About Me</a></li>
-							<li><a href="#works">Works</a></li>
-							<li><a href="#Contact-me">Contact me</a></li>
-							<li><a href="#Social-media">Social Media</a></li>
-					</ul>
-			</nav>
+		<h1>Bicho's Portofolio</h1>
+		<nav>
+			<ul>
+				<li><a href="#about-me">About Me</a></li>
+				<li><a href="#works">Works</a></li>
+				<li><a href="#Contact_me">Contact me</a></li>
+				<!-- <li><a href="#Social-media">Social Media</a></li> -->
+			</ul>
+		</nav>
 	</header>
 
-	<main>
-		<div id="about-me" class="about">
-			<h2 id="about-me">About me</h2>
-			<p>My info about mehhhhhhhhh... This is just practice.
-				I don't know if i will make it, but i'm trying my best, 
-				to complete the challenge.
-			</p>
+	<div>
+		<img src="./assets/images/Jojoss.jpg" alt="Portofolio background" class="center">
+	</div>
+
+	<div class="block">
+		<h2 class="titles" id="about-me">
+			About me
+		</h2>
+		<div class="content">
+			<div class="divider">
+				<p class="info" style="color: orange; font-size: 20px; font-family: Arial, Helvetica, sans-serif;">
+				Hello, my name is Cristian Loera. I'm working in a HTML </p> 
+			</div>
 		</div>
-		
-		<div class="works">
-			<h2>Works</h2>
-			<div class="works">
-				<button>
-				<img src="/assets/images/Folders.jpg" alt="Portafolios" style="height: 300px; width: 300px;">
-			</button>
+	</div>
+
+	<div class="block">
+		<h2 class="titles" id="works">
+			Works
+		</h2>
+		<div class="content">
+			<div class="divider">
+				<a href="https://github.com/el-bicho7/my_portofolio">
+					<button class="buttons">
+						<p class="box">
+							Challenge 1
+						</p>
+					</button>
+				</a>
+				<div class="two_blocks">
+					<a href="https://github.com/el-bicho7/first-day-demo">
+						<button class="buttons_2"  style="background-image: url(./assets/images/day-1-1.jpg);">
+							<p class="box">First day Demo</p>
+						</button>
+					</a>
+					<a href="https://github.com/el-bicho7/buscador_xml">
+						<button class="buttons_2" style="background-image: url(./assets/images/What-is-XML.jpg);">
+							<img href="./assets/images/What-is-XML.jpg">
+							<p class="box">XML Searcher</p>
+						</button>
+					</a>
+				</div>
+			</div>
 		</div>
+	</div>
+
+	<div class="block">
+		<h2 class="titles" id="Contact_me">
+			Contact me
+		</h2>
+		<div class="content">
+			<div class="divider" style="display: flex; justify-content: space-evenly;">
+				<a href="https://www.facebook.com/cristian.loera/" class="fa fa-facebook"></a>
+				<a href="https://www.instagram.com/cristian_loe/" class="fa fa-instagram"></a>
+				<a href="mailto:loera_73@hotmail.com" class="fa fa-envelope"></a>
+				<a href="https://github.com/el-bicho7" class="fa fa-github"></a>
+				<a href="https://open.spotify.com/user/1279730716" class="fa fa-spotify"></a>
+			</div>
 		</div>
-	</main>
+
+
+	</div>
 </body>
-</html>
