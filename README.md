@@ -1,7 +1,10 @@
 # my_portofolio
 
-This is my portofolio v1.0.
+This is my portfolio v1.0.
 
-It's my first attempt in doing a portofolio page. I will update this page according to the sites made. 
+It contains the different projects I've involved. It contains, a little about me,
+my repositories, and contact me section.
 
-I will add the challenges made in the bootcamp. As I advance in the course. 
+The page reacts to the different screen sizes.
+
+This page can be edited in the future, as I work on more projects.
